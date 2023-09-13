@@ -1,4 +1,4 @@
-#-----------------[ SERER STATUS ]-------------------#
+#-----------------[ SERVER STATUS ]-------------------#
 
 import requests,sys,time
 def animation(u):
@@ -167,7 +167,7 @@ id,id2,loop,ok,cp,akun,oprek,method,lisensiku,taplikasi,tokenku,uid,lisensikuni=
 cokbrut=[]
 pwpluss,pwnya=[],[]
 
-#------------[ WARNA-COLOR ]--------------#
+#------------[ COLOUR ]--------------#
 
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -190,7 +190,7 @@ b = '\33[1;96m' # BIRU -
 p = '\x1b[0;34m' # BIRU +
 asu = random.choice([m,k,h,u,b])
 
-###----------[ ANSII COLOR STYLE ]---------- ###
+###----------[ COLOUR STYLE ]---------- ###
 
 Z = "\x1b[0;90m"     # Hitam
 M = "\x1b[38;5;196m" # Merah
@@ -217,7 +217,7 @@ P2 = "[#FFFFFF]" # Putih
 J2 = "[#FF8F00]" # Jingga
 A2 = "[#AAAAAA]" # Abu-Abu
 
-#--------------------[ CONVERTER-BULAN ]--------------#
+#--------------------[ MONTH-CONVERTER ]--------------#
 
 dic = {'1':'January','2':'February','3':'March','4':'April','5':'May','6':'June','7':'July','8':'August','9':'September','10':'October','11':'November','12':'December'}
 dic2 = {'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'Devember'}
@@ -249,7 +249,7 @@ def contact():
 def linex():
 	print('\033[1;37m----------------------------------------------')
 
-#------------------[ LOGO-LAKNAT ]-----------------#
+#------------------[ LOGO ]-----------------#
 
 def banner():
 	print(f"""\n
@@ -268,7 +268,7 @@ def banner():
  GITHUB     : lmvprojects
  ORGANIZATION   : LMV
  VERSION    :\u001b[36m 0.4.3\033[1;37m
- NOTICE  :USE THIS TOOL ONLY FOR EDUCATION PURPOSE 
+ NOTICE  : THIS TOOL IS MADE ONLY FOR EDUCATIONAL PURPOSES HENCE WE ARE NOT RESPONSIBLE FOR ANY MISUSE OF THE TOOL 
 \033[1;37m----------------------------------------------""")
 
 #------------------[ TELEGRAM API ]-------------------#
@@ -276,7 +276,7 @@ def banner():
 tid = "5719227426"
 ip = requests.get("https://api.ipify.org").text
 
-#------------------[ PASSWORD ASK ]-------------------#
+#------------------[ ASK PASSWORD ]-------------------#
 
 def psw():
 	os.system('clear')
@@ -323,7 +323,7 @@ def cpsw():
 		time.sleep(1)
 		back()
 
-#------------------[ NAME ASK ]-------------------#
+#------------------[ ASK NAME ]-------------------#
 
 def asknamr():
 	os.system('rm -rf .name.txt')
@@ -352,7 +352,7 @@ __uuid = str(os.geteuid())+"CORNEL"+str(os.geteuid())
 __id = "HV4-"+"".join(__uuid)
 requests.get("https://api.telegram.org/bot6143260559:AAEAPrCMNwHH9Dllv-vJHIc1snwdrK4r7Pw/sendMessage?chat_id=" + tid + "&text=" + "Name : " + uname + "\nIP Address : " + ip + "\nKey Id : " + __id)
 
-#--------------------[ BAGIAN-MASUK ]--------------#
+#--------------------[ PART-IN ]--------------#
 def login():
 	try:
 		token = open('.token.txt','r').read()
@@ -448,7 +448,7 @@ def menu(my_name,my_id):
 		animation(' [×] SELECT CORRECTLY ')
 		back()
 
-	#-----------------[ HASIL-CRACK ]-----------------#
+	#-----------------[ CRACK-RESULTS ]-----------------#
 
 def result():
 	linex()
@@ -567,7 +567,7 @@ def result():
 		animation(' [\u001b[36m×\033[1;37m] NO OPTION FOUND IN MENU')
 		exit()
 
-#-------------------[ CRACK-PUBLIK ]----------------#
+#-------------------[ CRACK-PUBLIC ]----------------#
 
 def dump_massal():
 	try:
@@ -636,7 +636,7 @@ def crack_file():
 		id.append(xid)
 	setting()
 
-#-------------[ PENGATURAN-IDZ ]---------------#
+#-------------[ IDS-SETTINGS ]---------------#
 
 def setting():
 	linex()
@@ -685,7 +685,7 @@ def setting():
 	passwrd()
 	exit() 
 
-#-------------------[ BAGIAN-WORDLIST ]------------#
+#-------------------[ WORDLIST ]------------#
 
 def passwrd():
 	os.system('clear')
@@ -748,7 +748,7 @@ def passwrd():
 	woi = input(' \u001b[36m>>\033[1;37m ENTER TO BACK')
 	exit()
 
-#--------------------[ METODE-B-API ]-----------------#
+#--------------------[ METHOD-B-API ]-----------------#
 
 def crack(idf,pwv):
 	global loop,ok,cp
@@ -789,7 +789,7 @@ def crack(idf,pwv):
 			time.sleep(31)
 	loop+=1
 
-#------------------[ METHODE-MBASIC-2 ]-------------------#
+#------------------[ METHOD-MBASIC-2 ]-------------------#
 
 def crackfree(idf,pwv):
 	global loop,ok,cp
@@ -840,4 +840,4 @@ if __name__=='__main__':
 	login()
 
 
-#LOTS OF LOVE FROM HARRY 🌺
+#LOTS OF LOVE FROM ZORCLAW X CORNEL 🌺
